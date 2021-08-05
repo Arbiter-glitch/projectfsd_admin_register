@@ -1,0 +1,31 @@
+.main{
+ display: flex;
+ flex-direction: row;/*row reverse will reverse the arrangement of div inside main and column will arrange the div column wise */
+ width: 100%; /*nth-of-type(2) nth-of-type(2) indicates the 2nd div (it starts from 1 then 2 and so on )in main*/
+ align-content:center;
+ background-color: rgb(40, 163, 40);
+
+}
+.left{
+    background-color: forestgreen;
+    width:20%;
+    height:450px;
+    padding:20px;
+    margin:5%;
+    border-radius: 10px;
+    
+    
+    
+}
+.right{
+    background-color:forestgreen;
+    width:60%;
+    height:450px;
+    padding:20px;
+    margin:auto;
+    border-radius: 10px;
+    border:2px dotted limegreen;
+   
+    
+    
+}
